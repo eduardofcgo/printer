@@ -26,6 +26,7 @@ public class ServerFragment extends Fragment {
 
         this.activity = (MainActivity) getActivity();
         binding = FragmentServerBinding.inflate(inflater, container, false);
+
         return binding.getRoot();
     }
 
